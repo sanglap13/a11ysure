@@ -1,0 +1,20 @@
+{
+  "name": "a11yscore",
+  "version": "1.0.0",
+  "description": "A11yScore – Accessibility Audit & Scoring Agent for React",
+  "main": "dist/runner.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/runner.js",
+    "dev": "ts-node src/runner.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.3",
+    "@types/node": "^20.0.0"
+  }
+}
