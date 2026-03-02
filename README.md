@@ -31,6 +31,8 @@ A11yScore addresses this gap by introducing:
 - A reproducible 10,000-point scoring system
 - Structured benchmarking capability
 
+For a deeper write-up of the problem choice, prioritization, and design trade-offs, see `docs.md`.
+
 ---
 
 ## Agent Architecture
@@ -123,3 +125,5 @@ This prints a structured JSON summary with `critical`, `major`, `minor`, and `co
 
 - **Benchmark comparison**: See `benchmark/comparison.md` for a side-by-side comparison with a default Cursor Claude assistant.
 - **Example apps**: The `examples/` directory contains `bad-app`, `medium-app`, and `good-app` React apps used in the benchmark.
+
+---
